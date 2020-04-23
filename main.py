@@ -100,10 +100,6 @@ async def change_status():  # Changes status
         await client.change_presence(status=discord.Status.do_not_disturb, activity=discord.Game(name=current_status))
         await asyncio.sleep(300)  # change time
 
-@client.command(pass_context=True)
-@commands.check(botowner)
-async def servers(ctx):
-    await ctx.say("I'm in " + str(len(client.servers)) + " servers")
 
 
 
