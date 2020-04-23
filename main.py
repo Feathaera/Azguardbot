@@ -108,4 +108,4 @@ async def servers(ctx):
 
 
 client.loop.create_task(change_status())
-client.run(os.environ("MzQ2MzE4NDMwNDY4ODMzMjkw.Xpsasw.Xt_jxoWkLxy1YFkkd7vdxsn7HQA")
+client.run(os.environ['token']
