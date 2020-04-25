@@ -23,7 +23,7 @@ async def on_ready():
     global starter, Guild
     print("Bot is online bb")
 
-statusmsg = ['!help for commands list', 'Watching chat']
+statusmsg = ['?help for commands list', 'Watching chat']
 
 
 def botowner(ctx):  # Checks to see if you are the bots owner or not!
