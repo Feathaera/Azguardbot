@@ -90,7 +90,7 @@ class moderation(commands.Cog):
             return
         await member.add_roles(role)
         await member.remove_roles(remrole)
-        await ctx.send('User has been muted!')
+        await ctx.send('User has been muted!')#test
 
 
     @commands.command()
