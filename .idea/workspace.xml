@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e73d10d-e670-4875-a9c7-232be57da967" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Azguardbot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/_init_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/data/db/build.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cogs/moderation.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/moderation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
