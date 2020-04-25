@@ -82,7 +82,7 @@ class moderation(commands.Cog):
 
     @commands.command()
     @commands.has_permissions(administrator=True)
-    async def mute(self, ctx, user, reason):
+    async def mute(self, ctx, user):
         role = discord.utils.get(ctx.guild.roles, name="Muted")
         if not role:
             try:
@@ -94,7 +94,7 @@ class moderation(commands.Cog):
             except discord.Forbidden:
                 return await ctx.send("I do not have the permissions to create the muted role for you!")
             await user.add_roles(role)
-            await ctx.send(f"{user.mention}Has been muted for {reason}")
+            await ctx.send(f"{user.mention}Has been muted")
 
 
     @commands.command()
