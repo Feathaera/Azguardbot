@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-import sqlite3
+
 
 class levels(commands.Cog):
     def __init__(self, client):
